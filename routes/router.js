@@ -3,9 +3,10 @@
 const express = require('express');
 const router = express.Router();
 const htmlLayout = require('../views/layout');
+let content = '';
 
-router.get('/', async (req, res, next) => {
-    res.send 
+router.get('/', (req, res, next) => {
+    res.send(htmlLayout(''));
 });
 
 
