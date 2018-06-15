@@ -9,5 +9,4 @@ router.get('/', (req, res, next) => {
     res.send(htmlLayout(''));
 });
 
-
 module.exports = router;
